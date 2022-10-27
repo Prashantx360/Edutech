@@ -1,0 +1,110 @@
+{
+  "employees": [
+    {
+      "firstName": "Nainika",
+      "lastName": "banuka",
+      "email": "nainika@gmail.com",
+      "password": "12345",
+      "type_of_emp": "Manager",
+      "id": 1
+    },
+    {
+      "firstName": "Pinku",
+      "lastName": "Thomas",
+      "email": "pinku@gmail.com",
+      "password": "12345",
+      "id": 2,
+      "birthdate": "2022-08-29",
+      "gender": "male",
+      "address": "Bangluru",
+      "designation": "Developer",
+      "post_code": "213213",
+      "middleName": "J",
+      "total_exp": "2",
+      "qualification": "Msc",
+      "type_of_emp": "Member",
+      "start_date": "2022-08-02",
+      "end_date": "2022-08-31",
+      "marital_status": "unmarried",
+      "phone": "7523443667",
+      "skills": [
+        "java",
+        "html"
+      ]
+    },
+    {
+      "firstName": "sushma",
+      "lastName": "Banuka",
+      "email": "sushmabanuka33@gmail.com",
+      "password": "123456",
+      "type_of_emp": "Member",
+      "id": 3
+    }
+  ],
+  "employees_project_details": [
+    {
+      "projectName": "Task1",
+      "companyName": "PS",
+      "company_phone": "6345264545",
+      "project_status": "Open",
+      "emp_ids": [
+        {
+          "name": "EMP-2",
+          "id": 2
+        }
+      ],
+      "project_startdate": "2022-09-01",
+      "project_enddate": "2022-09-30",
+      "id": 1
+    },
+    {
+      "projectName": "Task2",
+      "companyName": "Vehicle Brand",
+      "company_phone": "6537833736",
+      "project_status": "Completed",
+      "emp_ids": [
+        {
+          "name": "EMP-2",
+          "id": 2
+        }
+      ],
+      "project_startdate": "2022-08-01",
+      "project_enddate": "2022-08-30",
+      "id": 2
+    },
+    {
+      "projectName": "Project 3",
+      "companyName": "Foods",
+      "company_phone": "6537833738",
+      "project_status": "Open",
+      "emp_ids": [
+        {
+          "name": "EMP-2",
+          "id": 2
+        }
+      ],
+      "project_startdate": "2022-09-13",
+      "project_enddate": "2022-10-01",
+      "id": 3
+    },
+    {
+      "projectName": "Project 4",
+      "companyName": "SMG",
+      "company_phone": "8654636468",
+      "project_status": "Active",
+      "emp_ids": [
+        {
+          "name": "EMP-2",
+          "id": 2
+        },
+        {
+          "name": "EMP-3",
+          "id": 3
+        }
+      ],
+      "project_startdate": "2022-09-28",
+      "project_enddate": "2022-10-28",
+      "id": 4
+    }
+  ]
+}
